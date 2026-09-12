@@ -1,7 +1,7 @@
-name: cd-master.yml
+name: CD
 on:
-push:
-  branches: ['master']
+  push:
+    branches: ['master']
 
 env:
   REPOSITORY: ${{ github.repository }} # <user>/<repo>

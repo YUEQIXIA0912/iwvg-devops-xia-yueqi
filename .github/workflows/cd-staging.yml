@@ -1,7 +1,7 @@
-name: cd-staging.yml
+name: CD
 on:
-push:
-  branches: ['staging']
+  push:
+    branches: ['staging']
 
 env:
   REPOSITORY: ${{ github.repository }} # <user>/<repo>
